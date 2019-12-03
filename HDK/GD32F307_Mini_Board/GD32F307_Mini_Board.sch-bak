@@ -1,0 +1,89 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title "GD32F307VCT6"
+Date "2019-12-03"
+Rev "V1.0"
+Comp "GD"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 14150 1900 3200 2050
+U 5E2C8C14
+F0 "power" 50
+F1 "power.sch" 50
+F2 "USB_D+" B L 14150 2300 50 
+F3 "USB_D-" B L 14150 2450 50 
+F4 "+3V3" O L 14150 2900 50 
+F5 "+5V" O L 14150 3050 50 
+F6 "GND" I L 14150 3200 50 
+$EndSheet
+$Sheet
+S -750 -1050 13300 10100
+U 5E36EA18
+F0 "main" 50
+F1 "main.sch" 50
+F2 "+3V3" I R 12550 2900 50 
+F3 "GND" O R 12550 3200 50 
+F4 "USB_DM" B R 12550 2450 50 
+F5 "USB_DP" B R 12550 2300 50 
+$EndSheet
+Wire Wire Line
+	12550 3200 13150 3200
+Wire Wire Line
+	12550 2900 13600 2900
+$Sheet
+S 14150 5100 3250 1250
+U 5E37E095
+F0 "spi_flash" 50
+F1 "spi_flash.sch" 50
+F2 "+3V3" I L 14150 5350 50 
+F3 "SPI_CLK" I L 14150 5650 50 
+F4 "SPI_MOSI" I L 14150 5750 50 
+F5 "SPI_CS" I L 14150 5850 50 
+F6 "SPI_MISO" O L 14150 5950 50 
+F7 "GND" O L 14150 5450 50 
+$EndSheet
+Wire Wire Line
+	13600 2900 13600 5350
+Wire Wire Line
+	13600 5350 14150 5350
+Connection ~ 13600 2900
+Wire Wire Line
+	13600 2900 14150 2900
+Wire Wire Line
+	13150 3200 13150 5450
+Wire Wire Line
+	13150 5450 14150 5450
+Connection ~ 13150 3200
+Wire Wire Line
+	13150 3200 14150 3200
+$Sheet
+S 14150 -400 3200 1450
+U 5E389BA0
+F0 "e2prom" 50
+F1 "e2prom.sch" 50
+F2 "+3V3" I L 14150 -100 50 
+F3 "I2C_SCL" I L 14150 300 50 
+F4 "I2C_SDA" B L 14150 450 50 
+F5 "GND" O L 14150 50  50 
+$EndSheet
+Wire Wire Line
+	13600 2900 13600 -100
+Wire Wire Line
+	13600 -100 14150 -100
+Wire Wire Line
+	13150 3200 13150 50  
+Wire Wire Line
+	13150 50   14150 50  
+Wire Wire Line
+	12550 2300 14150 2300
+Wire Wire Line
+	12550 2450 14150 2450
+$EndSCHEMATC
