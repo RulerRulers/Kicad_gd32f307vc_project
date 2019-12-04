@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -296,125 +296,10 @@ F 10 "100nF" V 8500 4600 50  0000 C CNN "Comment"
 	1    8450 4600
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E1D38BB
-P 4500 2750
-AR Path="/5E1D38BB" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38BB" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38BB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 2500 50  0001 C CNN
-F 1 "GND" V 4505 2622 50  0000 R CNN
-F 2 "" H 4500 2750 50  0001 C CNN
-F 3 "" H 4500 2750 50  0001 C CNN
-	1    4500 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E1D38C1
-P 4500 2650
-AR Path="/5E1D38C1" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38C1" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38C1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 2400 50  0001 C CNN
-F 1 "GND" V 4505 2522 50  0000 R CNN
-F 2 "" H 4500 2650 50  0001 C CNN
-F 3 "" H 4500 2650 50  0001 C CNN
-	1    4500 2650
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 2750 4500 2750
-Wire Wire Line
-	5000 2650 4500 2650
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E1D38C9
-P 4500 3050
-AR Path="/5E1D38C9" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38C9" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38C9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 2900 50  0001 C CNN
-F 1 "+3V3" V 4515 3178 50  0000 L CNN
-F 2 "" H 4500 3050 50  0001 C CNN
-F 3 "" H 4500 3050 50  0001 C CNN
-	1    4500 3050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E1D38CF
-P 4500 2950
-AR Path="/5E1D38CF" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38CF" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38CF" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4500 2700 50  0001 C CNN
-F 1 "GND" V 4505 2822 50  0000 R CNN
-F 2 "" H 4500 2950 50  0001 C CNN
-F 3 "" H 4500 2950 50  0001 C CNN
-	1    4500 2950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5000 3050 4500 3050
-Wire Wire Line
-	5000 2950 4500 2950
 Text Label 7150 3450 0    50   ~ 0
 BOOT1
-Wire Wire Line
-	6600 3450 7350 3450
 Text Label 4500 1750 0    50   ~ 0
 BOOT0
-Wire Wire Line
-	4500 1750 5000 1750
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5E1D38DE
-P 5800 1100
-AR Path="/5E1D38DE" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38DE" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38DE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 950 50  0001 C CNN
-F 1 "+3V3" H 5815 1273 50  0000 C CNN
-F 2 "" H 5800 1100 50  0001 C CNN
-F 3 "" H 5800 1100 50  0001 C CNN
-	1    5800 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 1250 5900 1250
-Connection ~ 6000 1250
-Wire Wire Line
-	5900 1250 5800 1250
-Connection ~ 5900 1250
-Wire Wire Line
-	5800 1250 5700 1250
-Connection ~ 5800 1250
-Wire Wire Line
-	6100 1250 6000 1250
-$Comp
-L power:GND #PWR?
-U 1 1 5E1D38EB
-P 5800 6750
-AR Path="/5E1D38EB" Ref="#PWR?"  Part="1" 
-AR Path="/5E1847B6/5E1D38EB" Ref="#PWR?"  Part="1" 
-AR Path="/5E36EA18/5E1D38EB" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5800 6500 50  0001 C CNN
-F 1 "GND" H 5805 6577 50  0000 C CNN
-F 2 "" H 5800 6750 50  0001 C CNN
-F 3 "" H 5800 6750 50  0001 C CNN
-	1    5800 6750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 6750 5800 6750
-Connection ~ 5900 6750
-Wire Wire Line
-	5800 6750 5700 6750
-Connection ~ 5800 6750
-Wire Wire Line
-	6000 6750 5900 6750
 Connection ~ 3100 5050
 $Comp
 L power:GND #PWR?
@@ -480,7 +365,7 @@ P 8400 1500
 AR Path="/5E1D3919" Ref="R?"  Part="1" 
 AR Path="/5E1847B6/5E1D3919" Ref="R?"  Part="1" 
 AR Path="/5E36EA18/5E1D3919" Ref="R?"  Part="1" 
-F 0 "R?" V 8350 1350 50  0000 L CNN
+F 0 "R?" V 8350 1550 50  0000 L CNN
 F 1 "0603_10KΩ__1002_1%" H 8250 1690 50  0001 L BNN
 F 2 "lc_lib:0603_R" H 8200 1260 50  0001 L BNN
 F 3 "http://www.szlcsc.com/product/details_26547.html" H 8200 1360 50  0001 L BNN
@@ -490,7 +375,7 @@ F 6 "0603" H 8200 1060 50  0001 L BNN "Package"
 F 7 "LC" H 8200 960 50  0001 L BNN "Supplier"
 F 8 "C25804" H 8200 860 50  0001 L BNN "SuppliersPartNumber"
 F 9 "" H 8200 760 50  0001 L BNN "Notepad"
-F 10 "10K" V 8700 1450 50  0000 L CNN "Comment"
+F 10 "10K" V 8450 1550 50  0000 L CNN "Comment"
 	1    8400 1500
 	0    1    1    0   
 $EndComp
@@ -543,7 +428,7 @@ P 8200 1500
 AR Path="/5E1D3940" Ref="R?"  Part="1" 
 AR Path="/5E1847B6/5E1D3940" Ref="R?"  Part="1" 
 AR Path="/5E36EA18/5E1D3940" Ref="R?"  Part="1" 
-F 0 "R?" V 8150 1350 50  0000 L CNN
+F 0 "R?" V 8150 1550 50  0000 L CNN
 F 1 "0603_10KΩ__1002_1%" H 8050 1690 50  0001 L BNN
 F 2 "lc_lib:0603_R" H 8000 1260 50  0001 L BNN
 F 3 "http://www.szlcsc.com/product/details_26547.html" H 8000 1360 50  0001 L BNN
@@ -553,153 +438,107 @@ F 6 "0603" H 8000 1060 50  0001 L BNN "Package"
 F 7 "LC" H 8000 960 50  0001 L BNN "Supplier"
 F 8 "C25804" H 8000 860 50  0001 L BNN "SuppliersPartNumber"
 F 9 "" H 8000 760 50  0001 L BNN "Notepad"
-F 10 "10K" V 8250 1300 50  0000 L CNN "Comment"
+F 10 "10K" V 8250 1550 50  0000 L CNN "Comment"
 	1    8200 1500
 	0    1    1    0   
 $EndComp
 $Comp
-L MCU_ST_STM32F3:STM32F303VCTx U?
-U 1 1 5E1D3946
-P 5800 3950
-AR Path="/5E1D3946" Ref="U?"  Part="1" 
-AR Path="/5E1847B6/5E1D3946" Ref="U?"  Part="1" 
-AR Path="/5E36EA18/5E1D3946" Ref="U?"  Part="1" 
-F 0 "U?" H 5200 1150 50  0000 C CNN
-F 1 "STM32F303VCTx" H 5200 1250 50  0000 C CNN
-F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5800 879 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00058181.pdf" H 5800 3950 50  0001 C CNN
-	1    5800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L lc_CrystalOscillator:SMD-3215_2P_32.768KHz_20ppm_12.5pF Y?
 U 1 1 5E1D3953
-P 7600 5650
+P 8500 5650
 AR Path="/5E1D3953" Ref="Y?"  Part="1" 
 AR Path="/5E1847B6/5E1D3953" Ref="Y?"  Part="1" 
 AR Path="/5E36EA18/5E1D3953" Ref="Y?"  Part="1" 
-F 0 "Y?" V 8004 5750 50  0000 L CNN
-F 1 "SMD-3215_2P_32.768KHz_20ppm_12.5pF" H 7649 5870 50  0001 L BNN
-F 2 "lc_lib:SMD-3215_2P FC - 135" H 7599 5380 50  0001 L BNN
-F 3 "http://www.szlcsc.com/product/details_33310.html" H 7599 5480 50  0001 L BNN
-F 4 "贴片晶振" H 7600 5650 50  0001 C CNN "description"
-F 5 "供应商链接" H 7599 5280 50  0001 L BNN "ComponentLink1Description"
-F 6 "SMD-3215_2P" H 7599 5180 50  0001 L BNN "Package"
-F 7 "LC" H 7599 5080 50  0001 L BNN "Supplier"
-F 8 "C32346" H 7599 4980 50  0001 L BNN "SuppliersPartNumber"
-F 9 "" H 7599 4880 50  0001 L BNN "Notepad"
-F 10 "32.768KHz ±20ppm 12.5pF" V 8095 5750 50  0000 L BNN "Comment"
-	1    7600 5650
+F 0 "Y?" V 8904 5750 50  0000 L CNN
+F 1 "SMD-3215_2P_32.768KHz_20ppm_12.5pF" H 8549 5870 50  0001 L BNN
+F 2 "lc_lib:SMD-3215_2P FC - 135" H 8499 5380 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_33310.html" H 8499 5480 50  0001 L BNN
+F 4 "贴片晶振" H 8500 5650 50  0001 C CNN "description"
+F 5 "供应商链接" H 8499 5280 50  0001 L BNN "ComponentLink1Description"
+F 6 "SMD-3215_2P" H 8499 5180 50  0001 L BNN "Package"
+F 7 "LC" H 8499 5080 50  0001 L BNN "Supplier"
+F 8 "C32346" H 8499 4980 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 8499 4880 50  0001 L BNN "Notepad"
+F 10 "32.768KHz " V 9000 5750 50  0000 L BNN "Comment"
+	1    8500 5650
 	0    1    1    0   
 $EndComp
 $Comp
 L lc_Cap:0603_10pF__100_5%_50V C?
 U 1 1 5E1D3960
-P 7650 5850
+P 8550 5850
 AR Path="/5E1D3960" Ref="C?"  Part="1" 
 AR Path="/5E1847B6/5E1D3960" Ref="C?"  Part="1" 
 AR Path="/5E36EA18/5E1D3960" Ref="C?"  Part="1" 
-F 0 "C?" H 8000 6097 50  0000 C CNN
-F 1 "0603_10pF__100_5%_50V" H 7699 6080 50  0001 L BNN
-F 2 "lc_lib:0603_C" H 7649 5570 50  0001 L BNN
-F 3 "http://www.szlcsc.com/product/details_1986.html" H 7649 5670 50  0001 L BNN
-F 4 "贴片电容" H 7650 5850 50  0001 C CNN "description"
-F 5 "供应商链接" H 7649 5470 50  0001 L BNN "ComponentLink1Description"
-F 6 "0603" H 7649 5370 50  0001 L BNN "Package"
-F 7 "LC" H 7649 5270 50  0001 L BNN "Supplier"
-F 8 "C1634" H 7649 5170 50  0001 L BNN "SuppliersPartNumber"
-F 9 "" H 7649 5070 50  0001 L BNN "Notepad"
-F 10 "10pF (100) 5% 50V" H 8000 6006 50  0000 C CNN "Comment"
-	1    7650 5850
+F 0 "C?" H 8900 6097 50  0000 C CNN
+F 1 "0603_10pF__100_5%_50V" H 8599 6080 50  0001 L BNN
+F 2 "lc_lib:0603_C" H 8549 5570 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_1986.html" H 8549 5670 50  0001 L BNN
+F 4 "贴片电容" H 8550 5850 50  0001 C CNN "description"
+F 5 "供应商链接" H 8549 5470 50  0001 L BNN "ComponentLink1Description"
+F 6 "0603" H 8549 5370 50  0001 L BNN "Package"
+F 7 "LC" H 8549 5270 50  0001 L BNN "Supplier"
+F 8 "C1634" H 8549 5170 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 8549 5070 50  0001 L BNN "Notepad"
+F 10 "10pF " H 8900 6006 50  0000 C CNN "Comment"
+	1    8550 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L lc_Cap:0603_10pF__100_5%_50V C?
 U 1 1 5E1D396D
-P 8350 6350
+P 9250 6350
 AR Path="/5E1D396D" Ref="C?"  Part="1" 
 AR Path="/5E1847B6/5E1D396D" Ref="C?"  Part="1" 
 AR Path="/5E36EA18/5E1D396D" Ref="C?"  Part="1" 
-F 0 "C?" H 8700 6103 50  0000 C CNN
-F 1 "0603_10pF__100_5%_50V" H 8399 6580 50  0001 L BNN
-F 2 "lc_lib:0603_C" H 8349 6070 50  0001 L BNN
-F 3 "http://www.szlcsc.com/product/details_1986.html" H 8349 6170 50  0001 L BNN
-F 4 "贴片电容" H 8350 6350 50  0001 C CNN "description"
-F 5 "供应商链接" H 8349 5970 50  0001 L BNN "ComponentLink1Description"
-F 6 "0603" H 8349 5870 50  0001 L BNN "Package"
-F 7 "LC" H 8349 5770 50  0001 L BNN "Supplier"
-F 8 "C1634" H 8349 5670 50  0001 L BNN "SuppliersPartNumber"
-F 9 "" H 8349 5570 50  0001 L BNN "Notepad"
-F 10 "10pF (100) 5% 50V" H 8700 6194 50  0000 C BNN "Comment"
-	1    8350 6350
+F 0 "C?" H 9700 6300 50  0000 C CNN
+F 1 "0603_10pF__100_5%_50V" H 9299 6580 50  0001 L BNN
+F 2 "lc_lib:0603_C" H 9249 6070 50  0001 L BNN
+F 3 "http://www.szlcsc.com/product/details_1986.html" H 9249 6170 50  0001 L BNN
+F 4 "贴片电容" H 9250 6350 50  0001 C CNN "description"
+F 5 "供应商链接" H 9249 5970 50  0001 L BNN "ComponentLink1Description"
+F 6 "0603" H 9249 5870 50  0001 L BNN "Package"
+F 7 "LC" H 9249 5770 50  0001 L BNN "Supplier"
+F 8 "C1634" H 9249 5670 50  0001 L BNN "SuppliersPartNumber"
+F 9 "" H 9249 5570 50  0001 L BNN "Notepad"
+F 10 "10pF " H 9600 6450 50  0000 C BNN "Comment"
+	1    9250 6350
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7850 5850 7600 5850
+	8750 5850 8500 5850
 Wire Wire Line
-	7850 6350 7600 6350
-Wire Wire Line
-	6600 6350 7050 6350
-Wire Wire Line
-	7050 6350 7050 5850
-Wire Wire Line
-	7050 5850 7600 5850
-Connection ~ 7600 5850
-Wire Wire Line
-	7200 6450 7200 6350
-Wire Wire Line
-	7200 6350 7600 6350
-Connection ~ 7600 6350
-Wire Wire Line
-	6600 6450 7200 6450
+	8750 6350 8500 6350
 $Comp
 L power:GND #PWR?
 U 1 1 5E1D397D
-P 8150 5850
+P 9050 5850
 AR Path="/5E1D397D" Ref="#PWR?"  Part="1" 
 AR Path="/5E1847B6/5E1D397D" Ref="#PWR?"  Part="1" 
 AR Path="/5E36EA18/5E1D397D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8150 5600 50  0001 C CNN
-F 1 "GND" V 8155 5722 50  0000 R CNN
-F 2 "" H 8150 5850 50  0001 C CNN
-F 3 "" H 8150 5850 50  0001 C CNN
-	1    8150 5850
+F 0 "#PWR?" H 9050 5600 50  0001 C CNN
+F 1 "GND" V 9055 5722 50  0000 R CNN
+F 2 "" H 9050 5850 50  0001 C CNN
+F 3 "" H 9050 5850 50  0001 C CNN
+	1    9050 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E1D3983
-P 8150 6350
+P 9050 6350
 AR Path="/5E1D3983" Ref="#PWR?"  Part="1" 
 AR Path="/5E1847B6/5E1D3983" Ref="#PWR?"  Part="1" 
 AR Path="/5E36EA18/5E1D3983" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8150 6100 50  0001 C CNN
-F 1 "GND" V 8155 6222 50  0000 R CNN
-F 2 "" H 8150 6350 50  0001 C CNN
-F 3 "" H 8150 6350 50  0001 C CNN
-	1    8150 6350
+F 0 "#PWR?" H 9050 6100 50  0001 C CNN
+F 1 "GND" V 9055 6222 50  0000 R CNN
+F 2 "" H 9050 6350 50  0001 C CNN
+F 3 "" H 9050 6350 50  0001 C CNN
+	1    9050 6350
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2300 2450 5000 2450
-Wire Wire Line
-	2800 2550 5000 2550
-Wire Wire Line
 	10050 2550 9600 2550
-Text GLabel 9600 2550 0    50   Input ~ 0
-NRST
-Text GLabel 9600 2450 0    50   Input ~ 0
-JTDO
-Text GLabel 9600 2350 0    50   Input ~ 0
-RTCK
-Text GLabel 9600 2250 0    50   Input ~ 0
-JTCK(SWCLK)
-Text GLabel 9600 2150 0    50   Input ~ 0
-JTMS(SWDIO)
-Text GLabel 9600 2050 0    50   Input ~ 0
-JTDI
-Text GLabel 9600 1950 0    50   Input ~ 0
-JNTRST
 Wire Wire Line
 	9900 1550 9900 1850
 Wire Wire Line
@@ -718,26 +557,6 @@ Wire Wire Line
 	8400 1700 8400 2150
 Wire Wire Line
 	8200 1700 8200 2450
-Wire Wire Line
-	6600 3650 7350 3650
-Text GLabel 7350 3650 2    50   Input ~ 0
-JNTRST
-Wire Wire Line
-	6600 3050 7350 3050
-Wire Wire Line
-	6600 2850 7350 2850
-Wire Wire Line
-	6600 2950 7350 2950
-Wire Wire Line
-	6600 3550 7350 3550
-Text GLabel 7350 3050 2    50   Input ~ 0
-JTDI
-Text GLabel 7350 2850 2    50   Input ~ 0
-JTMS(SWDIO)
-Text GLabel 7350 2950 2    50   Input ~ 0
-JTCK(SWCLK)
-Text GLabel 7350 3550 2    50   Input ~ 0
-JTDO
 $Comp
 L lc_RES:0603_10KΩ__1002_1% R?
 U 1 1 5E1D39AD
@@ -928,14 +747,12 @@ AR Path="/5E1D3A08" Ref="J?"  Part="1"
 AR Path="/5E1847B6/5E1D3A08" Ref="J?"  Part="1" 
 AR Path="/5E36EA18/5E1D3A08" Ref="J?"  Part="1" 
 F 0 "J?" H 10300 2867 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 10300 2776 50  0000 C CNN
+F 1 "JTAG" H 10300 2776 50  0000 C CNN
 F 2 "" H 10250 2250 50  0001 C CNN
 F 3 "~" H 10250 2250 50  0001 C CNN
 	1    10250 2250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 1550 5000 1550
 Wire Wire Line
 	3150 1350 3150 1550
 Wire Wire Line
@@ -1112,15 +929,11 @@ F 10 "20pF 5% 50V" V 3195 3110 50  0000 L BNN "Comment"
 	1    2800 3000
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2300 2700 2300 2450
 Connection ~ 2300 2700
 Wire Wire Line
 	2350 2700 2300 2700
 Wire Wire Line
 	2300 3050 2300 2700
-Wire Wire Line
-	2800 2700 2800 2550
 Connection ~ 2800 2700
 Wire Wire Line
 	2750 2700 2800 2700
@@ -1168,8 +981,6 @@ F 10 "25MHZ 12PF 10PPM" H 2550 3196 50  0000 C CNN "Comment"
 	1    2600 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5800 1100 5800 1250
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E24A993
@@ -1200,20 +1011,10 @@ Wire Wire Line
 	8800 5250 9500 5250
 Text HLabel 9500 5250 2    50   Output ~ 0
 GND
-Wire Wire Line
-	6600 2550 7350 2550
-Wire Wire Line
-	6600 2650 7350 2650
-Wire Wire Line
-	6600 2750 7350 2750
 Text HLabel 7350 2650 2    50   BiDi ~ 0
 USB_DM
 Text HLabel 7350 2750 2    50   BiDi ~ 0
 USB_DP
-Text Label 5600 1150 1    50   ~ 0
-VBAT
-Wire Wire Line
-	5600 1000 5600 1250
 Connection ~ 3000 6350
 Wire Wire Line
 	3000 6350 3000 6250
@@ -1221,4 +1022,364 @@ Text Label 3300 6350 0    50   ~ 0
 VBAT
 Wire Wire Line
 	3000 6350 3450 6350
+Wire Wire Line
+	3150 1550 5000 1550
+Wire Wire Line
+	4500 1750 5000 1750
+Wire Wire Line
+	7000 3050 7350 3050
+Wire Wire Line
+	7000 2950 7350 2950
+Wire Wire Line
+	7000 2850 7350 2850
+Wire Wire Line
+	7000 2750 7350 2750
+Wire Wire Line
+	7000 2650 7350 2650
+Wire Wire Line
+	7000 2550 7350 2550
+Wire Wire Line
+	2800 2350 5000 2350
+Wire Wire Line
+	2800 2350 2800 2700
+Wire Wire Line
+	2300 2250 5000 2250
+Wire Wire Line
+	2300 2250 2300 2700
+Wire Wire Line
+	7000 3650 7350 3650
+Wire Wire Line
+	7000 3550 7350 3550
+Wire Wire Line
+	7000 3450 7350 3450
+$Comp
+L MCU_ST_STM32F1:STM32F107VCTx U?
+U 1 1 5DE77F8C
+P 6000 3950
+F 0 "U?" H 5200 1150 50  0000 C CNN
+F 1 "STM32F107VCTx" H 5450 1250 50  0000 C CNN
+F 2 "Package_QFP:LQFP-100_14x14mm_P0.5mm" H 5200 1350 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00220364.pdf" H 6000 3950 50  0001 C CNN
+	1    6000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1250 5900 1000
+Wire Wire Line
+	6500 1250 6400 1250
+Connection ~ 6100 1250
+Wire Wire Line
+	6100 1250 6000 1250
+Connection ~ 6200 1250
+Wire Wire Line
+	6200 1250 6100 1250
+Connection ~ 6300 1250
+Wire Wire Line
+	6300 1250 6200 1250
+Connection ~ 6400 1250
+Wire Wire Line
+	6400 1250 6300 1250
+Text Label 5900 1150 1    50   ~ 0
+VBAT
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DF1539D
+P 6500 1100
+F 0 "#PWR?" H 6500 950 50  0001 C CNN
+F 1 "+3V3" H 6515 1273 50  0000 C CNN
+F 2 "" H 6500 1100 50  0001 C CNN
+F 3 "" H 6500 1100 50  0001 C CNN
+	1    6500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1100 6500 1250
+Connection ~ 6500 1250
+Wire Wire Line
+	6400 6750 6300 6750
+Connection ~ 6000 6750
+Wire Wire Line
+	6000 6750 5900 6750
+Connection ~ 6100 6750
+Wire Wire Line
+	6100 6750 6000 6750
+Connection ~ 6200 6750
+Wire Wire Line
+	6200 6750 6100 6750
+Connection ~ 6300 6750
+Wire Wire Line
+	6300 6750 6200 6750
+$Comp
+L power:GND #PWR?
+U 1 1 5DF2273F
+P 5900 6900
+F 0 "#PWR?" H 5900 6650 50  0001 C CNN
+F 1 "GND" H 5905 6727 50  0000 C CNN
+F 2 "" H 5900 6900 50  0001 C CNN
+F 3 "" H 5900 6900 50  0001 C CNN
+	1    5900 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6900 5900 6750
+Connection ~ 5900 6750
+Wire Wire Line
+	8150 6350 8150 5850
+Wire Wire Line
+	8150 5850 8500 5850
+Connection ~ 8500 5850
+Wire Wire Line
+	8250 6450 8250 6350
+Wire Wire Line
+	8250 6350 8500 6350
+Connection ~ 8500 6350
+Wire Wire Line
+	5000 1950 4500 1950
+Wire Wire Line
+	5000 2050 4500 2050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5DF595FE
+P 4500 1950
+F 0 "#PWR?" H 4500 1800 50  0001 C CNN
+F 1 "+3V3" V 4515 2078 50  0000 L CNN
+F 2 "" H 4500 1950 50  0001 C CNN
+F 3 "" H 4500 1950 50  0001 C CNN
+	1    4500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DF59E3E
+P 4500 2050
+F 0 "#PWR?" H 4500 1800 50  0001 C CNN
+F 1 "GND" V 4505 1922 50  0000 R CNN
+F 2 "" H 4500 2050 50  0001 C CNN
+F 3 "" H 4500 2050 50  0001 C CNN
+	1    4500 2050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 4350 7350 4350
+Wire Wire Line
+	7000 4450 7350 4450
+Wire Wire Line
+	7000 4550 7350 4550
+Text HLabel 7350 4350 2    50   Input ~ 0
+RMII_TX_EN
+Text HLabel 7350 4450 2    50   Input ~ 0
+RMII_TXD0
+Text HLabel 7350 4550 2    50   Input ~ 0
+RMII_TXD1
+Wire Wire Line
+	7000 5350 7350 5350
+Wire Wire Line
+	7000 5450 7350 5450
+Text HLabel 7350 5350 2    50   Input ~ 0
+RMII_RXD0
+Text HLabel 7350 5450 2    50   Input ~ 0
+RMII_RXD1
+Wire Wire Line
+	7000 2250 7350 2250
+Text HLabel 7350 2250 2    50   Input ~ 0
+RMII_CRS_DV
+Wire Wire Line
+	7000 5050 7350 5050
+Text HLabel 7350 5050 2    50   Input ~ 0
+RMII_MDC
+Wire Wire Line
+	7000 1750 7350 1750
+Text HLabel 7350 1750 2    50   Input ~ 0
+RMII_MDIO
+Wire Wire Line
+	7000 1650 7350 1650
+Text HLabel 7350 1650 2    50   Input ~ 0
+RMII_REF_CLK
+Wire Wire Line
+	7000 3250 7350 3250
+Text HLabel 7350 3250 2    50   Input ~ 0
+RMII_INT
+Text HLabel 5000 1300 1    50   Input ~ 0
+NRST
+Wire Wire Line
+	5000 1300 5000 1550
+Connection ~ 5000 1550
+Wire Wire Line
+	4500 6350 5000 6350
+Wire Wire Line
+	5000 6450 4500 6450
+Text HLabel 4500 6350 0    50   Input ~ 0
+EXMC_D0
+Text HLabel 4500 6450 0    50   Input ~ 0
+EXMC_D1
+Wire Wire Line
+	5000 4950 4500 4950
+Wire Wire Line
+	5000 5050 4500 5050
+Text HLabel 4500 4950 0    50   Input ~ 0
+EXMC_D2
+Text HLabel 4500 5050 0    50   Input ~ 0
+EXMC_D3
+Wire Wire Line
+	5000 3950 4500 3950
+Wire Wire Line
+	5000 4050 4500 4050
+Wire Wire Line
+	5000 4150 4500 4150
+Text HLabel 4500 3950 0    50   Input ~ 0
+EXMC_D4
+Text HLabel 4500 4050 0    50   Input ~ 0
+EXMC_D5
+Text HLabel 4500 4150 0    50   Input ~ 0
+EXMC_D6
+Wire Wire Line
+	5000 4250 4500 4250
+Text HLabel 4500 4250 0    50   Input ~ 0
+EXMC_D7
+Wire Wire Line
+	5000 6050 4500 6050
+Wire Wire Line
+	5000 6150 4500 6150
+Text HLabel 4500 6050 0    50   Input ~ 0
+EXMC_A16
+Text HLabel 4500 6150 0    50   Input ~ 0
+EXMC_A17
+Wire Wire Line
+	5000 5350 4500 5350
+Wire Wire Line
+	5000 5450 4500 5450
+Wire Wire Line
+	5000 5550 4500 5550
+Text HLabel 4500 5350 0    50   Input ~ 0
+EXMC_NOE
+Text HLabel 4500 5450 0    50   Input ~ 0
+EXMC_NWE
+Text HLabel 4500 5550 0    50   Input ~ 0
+EXMC_NWAIT
+Wire Wire Line
+	7000 1950 7350 1950
+Text HLabel 7350 1950 2    50   Input ~ 0
+NAND_CS
+Wire Wire Line
+	5000 4350 4500 4350
+Wire Wire Line
+	5000 4450 4500 4450
+Wire Wire Line
+	5000 4550 4500 4550
+Wire Wire Line
+	5000 4650 4500 4650
+Wire Wire Line
+	5000 4750 4500 4750
+Text HLabel 4500 4350 0    50   Input ~ 0
+EXMC_D8
+Text HLabel 4500 4450 0    50   Input ~ 0
+EXMC_D9
+Text HLabel 4500 4550 0    50   Input ~ 0
+EXMC_D10
+Text HLabel 4500 4650 0    50   Input ~ 0
+EXMC_D11
+Text HLabel 4500 4750 0    50   Input ~ 0
+EXMC_D12
+Wire Wire Line
+	5000 5750 4500 5750
+Wire Wire Line
+	5000 5850 4500 5850
+Wire Wire Line
+	5000 5950 4500 5950
+Text HLabel 4500 5750 0    50   Input ~ 0
+EXMC_D13
+Text HLabel 4500 5850 0    50   Input ~ 0
+EXMC_D14
+Text HLabel 4500 5950 0    50   Input ~ 0
+EXMC_D15
+Wire Wire Line
+	5000 3450 4500 3450
+Text HLabel 4500 3450 0    50   Input ~ 0
+EXMC_A23
+Wire Wire Line
+	7000 6350 8150 6350
+Wire Wire Line
+	7000 6450 8250 6450
+Wire Wire Line
+	7000 5950 7350 5950
+Wire Wire Line
+	7000 6050 7350 6050
+Wire Wire Line
+	7000 6150 7350 6150
+Text HLabel 7350 5950 2    50   Input ~ 0
+SPI_CLK
+Text HLabel 7350 6050 2    50   Input ~ 0
+SPI_MISO
+Text HLabel 7350 6150 2    50   Input ~ 0
+SPI_MOSI
+Wire Wire Line
+	7000 6250 7350 6250
+Text HLabel 7350 6250 2    50   Input ~ 0
+SPI_CS
+Wire Wire Line
+	7000 3850 7350 3850
+Wire Wire Line
+	7000 3950 7350 3950
+Text HLabel 7350 3850 2    50   Input ~ 0
+I2C_SCL
+Text HLabel 7350 3950 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	7000 2450 7350 2450
+Text HLabel 7350 2450 2    50   Input ~ 0
+UART0_TXD
+Text HLabel 7350 2550 2    50   Input ~ 0
+UART0_RXD
+Text Label 7150 3550 0    50   ~ 0
+JTDO
+Text Label 9350 2450 0    50   ~ 0
+JTDO
+Text Label 7100 3650 0    50   ~ 0
+JNTRST
+Text Label 9350 1950 0    50   ~ 0
+JNTRST
+Wire Wire Line
+	7000 3750 7350 3750
+Text HLabel 7350 3550 2    50   Input ~ 0
+T_CLK
+Text HLabel 7350 3650 2    50   Input ~ 0
+T_MISO
+Text HLabel 7350 3750 2    50   Input ~ 0
+T_MOSI
+Wire Wire Line
+	7000 4050 7350 4050
+Wire Wire Line
+	7000 4150 7350 4150
+Text HLabel 7350 4050 2    50   Input ~ 0
+T_PEN
+Text HLabel 7350 4150 2    50   Input ~ 0
+T_CS
+Wire Wire Line
+	7000 4650 7350 4650
+Wire Wire Line
+	7000 4750 7350 4750
+Text HLabel 7350 4650 2    50   Input ~ 0
+LCD_CS
+Text HLabel 7350 4750 2    50   Input ~ 0
+BackLight
+Text HLabel 9600 2550 0    50   Input ~ 0
+NRST
+Text Label 9350 2250 0    50   ~ 0
+JTCK(SWCLK)
+Text Label 7300 2850 0    50   ~ 0
+JTMS(SWDIO)
+Text Label 7300 3050 0    50   ~ 0
+JTDI
+Text Label 9350 2050 0    50   ~ 0
+JTDI
+Text Label 9350 2150 0    50   ~ 0
+JTMS(SWDIO)
+Text Label 7300 2950 0    50   ~ 0
+JTCK(SWCLK)
+Text Label 9350 2350 0    50   ~ 0
+RTCK
+Wire Wire Line
+	7000 5250 7350 5250
+Text HLabel 7350 5250 2    50   Input ~ 0
+ADC_IN
 $EndSCHEMATC
